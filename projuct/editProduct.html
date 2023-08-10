@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="top">
+        <p class="textTop">Inventory Management</p>
+        <div id="icon">
+           <i class="material-icons-top">home</i>
+           <i class="material-icons-top">add_circle_outline</i>
+        </div>
+    </div>
+    <div id="menu">
+        <div id="categories">
+            <button class="category" name="All_Products">All Products </button>
+            <button class="category" name="men's clothing">man</button>
+            <button class="category" name="women's clothing">women</button>
+            <button class="category" name="jewelery">jewelry</button>
+            <button class="category" name="electronics">electronic</button>
+        </div>
+        <div>
+        
+        <input id="input_search" placeholder="search">
+        <button><i class="material-icons" id="search">search</i></button>
+        </div>
+    </div>
+    <h1>Edit Products</h1>
+    <div id="editInput">
+        <label for="title">Title</label><br>
+        <input type="text" id="title" name="title"><br><br>
+        <label for="categoryInput">category</label><br>
+        <input type="text" id="categoryInput" name="categoryInput"><br><br>
+        <label for="price">price</label><br>
+        <input type="text" id="price" name="price"><br><br>
+        <label for="imageURL">image URL</label><br>
+        <input type="text" id="imageURL" name="imageURL"><br><br>
+        <label for="Quantity">Quantity</label><br>
+        <input type="text" id="Quantity" name="Quantity"><br><br>
+        <label for="Description">Description</label><br>
+        <input type="text" id="Description" name="Description"><br><br>
+        <button>Edit</button>
+        <script src="./editProduct.js"></script>
+    </div>
+</body>
+</html>
